@@ -29,6 +29,10 @@ theme = "nightfall"
     weight = 5
     url = "about"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 user = "LÄRM."
 footerHtml = 'Made with 😵‍💫 by Emma'
