@@ -17,16 +17,12 @@ theme = "nightfall"
     weight = 2
     url = "about"
   [[menu.header]]
-    name = "WIE?"
+    name = "WARUM?"
     weight = 3
     url = "about"
   [[menu.header]]
-    name = "WARUM?"
-    weight = 4
-    url = "about"
-  [[menu.header]]
     name = "WER?"
-    weight = 5
+    weight = 4
     url = "about"
 
 [caches]
