@@ -31,14 +31,21 @@
         color: v.$white;
         text-decoration: none;
       }
+
+      a:hover {
+        color: v.$whiteHighlight;
+      }
     }
   }
 }
 
-.terminal,
-.terminal:hover {
+.terminal {
   color: v.$white;
-  text-decoration: none;
+  // text-decoration: none;
+}
+
+.terminal:hover {
+  color: v.$whiteHighlight;
 }
 
 .hamb {

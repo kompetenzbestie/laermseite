@@ -5,7 +5,8 @@
 }
 
 .indexHeader {
-    font-size: 8em;
+    font-size: 10vmax;
+    // max-width: 80%;
     font-family: 'PP Monument Extended';
 }
 
@@ -21,8 +22,10 @@
 }
 
 .authorImageWrapper img.size-m {
-    height: 11rem;
-    width: 11rem;
+    // height: 11rem;
+    // width: 11rem;
+    width: 50vmax;
+    // max-width: 10vmax;
 }
 
 .authorImageWrapper img.size-l {

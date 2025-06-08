@@ -11,15 +11,15 @@ theme = "nightfall"
   [[menu.header]]
     name = "WAS&WARUM?"
     weight = 1
-    url = "blog"
+    url = "was-warum"
   [[menu.header]]
     name = "WO&WANN?"
     weight = 2
-    url = "about"
+    url = "wo-wann"
   [[menu.header]]
     name = "WER&WIE?"
     weight = 3
-    url = "about"
+    url = "wer-wie"
 
 [caches]
   [caches.images]
@@ -30,8 +30,9 @@ user = "LÄRM."
 footerHtml = 'Made with 😵‍💫 by Emma'
   [params.author]
     name = "LÄRM."  # Website and RSS feed author
-    # avatarFirst = false
-    # avatar = "/img/Lärm.svg"
+    avatarFirst = true
+    avatar = "img/logo_komplex.png"
+    logo = "logo_square.svg"
     email = "email@example.com"  # RSS feed email address
 
 
@@ -42,6 +43,7 @@ published = true  # Show published data on post page
 key = 0
 name = "github"
 url = "https://github.com/gohugoio"
+icon = "fa-brands fa-github"
 target = "_blank"
 aria = "GitHub Profile"
 

@@ -4,8 +4,16 @@
   <url>
     <loc>//localhost:1313/</loc>
   </url><url>
+    <loc>//localhost:1313/was-warum/</loc>
+  </url><url>
+    <loc>//localhost:1313/wo-wann/event1/</loc>
+  </url><url>
+    <loc>//localhost:1313/wo-wann/event2/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/wo-wann/</loc>
   </url>
 </urlset>
