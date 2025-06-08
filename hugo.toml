@@ -9,20 +9,16 @@ theme = "nightfall"
 
 [menu]
   [[menu.header]]
-    name = "WAS?"
+    name = "WAS UND WARUM?"
     weight = 1
     url = "blog"
   [[menu.header]]
-    name = "WO?"
+    name = "WO UND WANN?"
     weight = 2
     url = "about"
   [[menu.header]]
-    name = "WARUM?"
+    name = "WER UND WIE?"
     weight = 3
-    url = "about"
-  [[menu.header]]
-    name = "WER?"
-    weight = 4
     url = "about"
 
 [caches]
