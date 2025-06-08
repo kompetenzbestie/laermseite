@@ -1,0 +1,38 @@
+@use "hugo:vars" as h;
+@use "sass:map";
+
+// Colors
+$darkGrey: #323232;
+$white: #DF3BB5;
+$black: #2f2f2f;
+
+// $backgroundDarker: #252627;
+// $backgroundDark: #292a2d;
+$backgroundDarker: #121313;
+$backgroundDark: #121313;
+
+//Fonts
+$fontHeader: 'PP Monument Extended';
+$fontParagraph: 'Open Sans', sans-serif;
+$fontCode: 'Fira Mono', monospace;
+
+// Content
+$breakLarge: 992px;
+$width: 760px;
+
+$primary-colors: (
+    'blue': #80AADD,
+    'orange': #FFB300,
+    'green': #33D17A,
+    'red': #F26E74
+);
+
+@mixin primary-color {
+
+    @if map.has-key($primary-colors, h.$color) {
+        color: map.get($primary-colors, h.$color);
+    } @else {
+        color: h.$color;
+    }
+
+}
