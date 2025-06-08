@@ -1,0 +1,68 @@
+baseURL = 'localhost'
+languageCode = 'de'
+theme = "nightfall"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.header]]
+    name = "WAS?"
+    weight = 1
+    url = "blog"
+  [[menu.header]]
+    name = "WO?"
+    weight = 2
+    url = "about"
+  [[menu.header]]
+    name = "WIE?"
+    weight = 3
+    url = "about"
+  [[menu.header]]
+    name = "WARUM?"
+    weight = 4
+    url = "about"
+  [[menu.header]]
+    name = "WER?"
+    weight = 5
+    url = "about"
+
+[params]
+user = "LÄRM."
+footerHtml = 'Made with 😵‍💫 by Emma'
+  [params.author]
+    name = "LÄRM."  # Website and RSS feed author
+    # avatarFirst = false
+    # avatar = "/img/Lärm.svg"
+    email = "email@example.com"  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/gohugoio"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://www.example.com"
+aria = "Twitter Profile"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.example.com"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:email@example.com"
+aria = "My e-Mail Address"
